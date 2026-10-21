@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#365987">
+  <title>KPSS Buddy · Hesap Silme</title>
+  <style>
+    :root { --blue:#365987; --navy:#1d293b; --paper:#f4f7fc; --muted:#526176; --border:#dbe3ef; --note:#e7eef9; }
+    * { box-sizing:border-box; }
+    body { margin:0; padding:24px 16px; background:var(--paper); color:var(--navy); font:16px/1.7 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    main { width:min(100%,900px); margin:0 auto; }
+    header { padding:24px clamp(20px,5vw,36px); border-radius:20px; color:#fff; background:var(--blue); }
+    header a { color:#e7eef9; }
+    h1 { margin:12px 0 4px; font-size:clamp(1.9rem,6vw,2.5rem); line-height:1.18; }
+    header p { margin:0; color:#e7eef9; }
+    article { margin-top:14px; padding:clamp(20px,5vw,36px); border:1px solid var(--border); border-radius:18px; background:#fff; }
+    h2 { margin:26px 0 8px; font-size:1.18rem; line-height:1.35; }
+    h2:first-child { margin-top:0; }
+    p,li { color:var(--muted); }
+    ol,ul { padding-left:22px; }
+    li+li { margin-top:7px; }
+    .note { margin:18px 0; padding:15px 18px; border-left:4px solid var(--blue); border-radius:10px; background:var(--note); color:var(--navy); }
+    a { color:var(--blue); }
+    footer { margin:18px 4px; color:var(--muted); font-size:.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header><a href="index.html">← Yasal sayfalar</a><h1>Hesap Silme</h1><p>Son güncelleme: 21 Ekim 2026</p></header>
+    <article>
+      <p><strong>Uygulama:</strong> KPSS Buddy<br><strong>Geliştirici:</strong> GStream Tecn<br><strong>İletişim:</strong> <a href="mailto:gstreamtecn@gmail.com">gstreamtecn@gmail.com</a></p>
+      <p>KPSS Buddy hesabınızı uygulama içinden silebilirsiniz. Hesap silme isteği oturum doğrulamasıyla sunucuya iletilir.</p>
+
+      <h2>1. Uygulama içinden silme</h2>
+      <ol>
+        <li>KPSS Buddy uygulamasında hesabınıza giriş yapın.</li>
+        <li><strong>Profil</strong> sekmesini açın.</li>
+        <li>Profil sayfasının altındaki <strong>Hesabı Sil</strong> seçeneğine dokunun.</li>
+        <li>Uyarıyı okuyup silme işlemini onaylayın.</li>
+      </ol>
+      <div class="note">Silme isteği başarılı olduğunda uygulama hesabınızı kapatır ve cihazdaki uygulama verilerini temizler. Sunucu tarafındaki hesap silme işlemi tamamlanamazsa hata gösterilir.</div>
+
+      <h2>2. Silme kapsamı</h2>
+      <p>İstek, Supabase kullanıcı hesabının silinmesini başlatır. Hesapla ilişkili uygulama kayıtlarının silinme kapsamı sunucu şeması ve bağlı kayıt kurallarına bağlı olabilir. Bu nedenle burada doğrulanamayan belirli bir iş günü veya saklama süresi taahhüt edilmez.</p>
+      <p>Google Play satın alma/abonelik kayıtları mağaza tarafından yönetilir ve uygulama hesabını silmek bu aboneliği iptal etmez. Aboneliği ayrıca Google Play hesabınızın abonelik yönetiminden iptal etmeniz gerekir. Ödeme kayıtları ilgili sağlayıcının koşullarına göre tutulabilir.</p>
+
+      <h2>3. Hesaba erişemiyorsanız</h2>
+      <p>Hesap silme konusunda destek almak için <a href="mailto:gstreamtecn@gmail.com">gstreamtecn@gmail.com</a> adresine “KPSS Buddy Hesap Silme Talebi” konusuyla e-posta gönderin. Hesabınızı bulmaya yetecek bilgileri paylaşın; parolanızı veya ödeme kartı bilgilerinizi göndermeyin.</p>
+
+      <h2>4. İlgili sayfalar</h2>
+      <p><a href="privacy-policy.html">Gizlilik Politikası</a> · <a href="terms-of-use.html">Kullanım Şartları</a></p>
+    </article>
+    <footer>KPSS Buddy · GStream Tecn · <a href="mailto:gstreamtecn@gmail.com">gstreamtecn@gmail.com</a></footer>
+  </main>
+</body>
+</html>
